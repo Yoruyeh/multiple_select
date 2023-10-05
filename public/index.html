@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Selection</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="POST">
+      <select name="select" id="select">
+        <!-- {/* 預設的options皆給予hidden屬性隱藏 */} -->
+        <option hidden value="">
+          請選擇
+        </option>
+        <option hidden value="1">
+          1
+        </option>
+        <option hidden value="2">
+          2
+        </option>
+        <option hidden value="3">
+          3
+        </option>
+        <option hidden value="4">
+          4
+        </option>
+        <option hidden value="5">
+          5
+        </option>
+        <option hidden value="6">
+          6
+        </option>
+        <option hidden value="7">
+          7
+        </option>
+        <option hidden value="8">
+          8
+        </option>
+        <option hidden value="9">
+          9
+        </option>
+        <option hidden value="10">
+          10
+        </option>
+        <!-- {/* 將多選的值存入最後一個option，顯示用 */} --> 
+        <option hidden value=""></option>
+      </select>
+      <button type="submit">
+        submit
+      </button>
+    </form>
+  </div>
+
+  <script src="/index.js"></script>
+
+</body>
+</html>
