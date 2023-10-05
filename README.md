@@ -17,5 +17,5 @@ Transform a default single-select input into a multi-select using a function, wi
 
 3. run server on localhost:3000:
 ```bash
-  nodemon server.js
+  npm run start
 ```
